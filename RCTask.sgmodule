@@ -13,7 +13,7 @@ cron "8 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 # everyday 00:09 neteasemusic
 cron "9 0 0 * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
 
-# qqvideo 
+# qqvideo  手机浏览器访问: https://film.qq.com/ 随便选 1 部电影观看
 cron "29 17 0 * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 
 
