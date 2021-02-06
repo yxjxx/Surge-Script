@@ -13,6 +13,9 @@ cron "8 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 # everyday 00:09 neteasemusic
 cron "9 0 0 * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
 
+# qqvideo 
+cron "29 17 0 * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+
 
 [MITM]
-hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com
+hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com, *.video.qq.com
