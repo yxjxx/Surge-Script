@@ -1,0 +1,15 @@
+#!name=RC Tasks Module
+#!desc=iOS Tasks 模块配置
+
+[Script]
+# By rico  GitHub：https://github.com/yxjxx/Surge-Script
+
+# www.flyertea.com
+http-request ^https:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js
+
+# neteasemusic
+http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true
+
+
+[MITM]
+hostname = %APPEND% music.163.com, www.flyertea.com
