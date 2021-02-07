@@ -4,17 +4,17 @@
 [Script]
 # By rico  GitHub：https://github.com/yxjxx/Surge-Script
 
-#everyday 00:07 flyertea
-cron "22 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js
+#everyday 00:02 flyertea
+cron "2 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js
 
-# everyday 00:08 iqiyi
-cron "8 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
+# everyday 00:03 iqiyi
+cron "3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
 
-# everyday 00:09 neteasemusic
-cron "21 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
+# everyday 00:04 neteasemusic
+cron "4 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
 
-# qqvideo  手机浏览器访问: https://film.qq.com/ 随便选 1 部电影观看
-cron "22 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+# everyday 00:05 qqvideo  手机浏览器访问: https://film.qq.com/ 随便选 1 部电影观看
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 
 
 [MITM]
