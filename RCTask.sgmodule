@@ -16,6 +16,8 @@ cron "4 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 # everyday 00:05 qqvideo  手机浏览器访问: https://film.qq.com/ 随便选 1 部电影观看
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 
+# everyday 00:05 航旅纵横
+cron "6 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
 
 [MITM]
-hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com, *.video.qq.com
+hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com, *.video.qq.com, cloud.umetrip.com
