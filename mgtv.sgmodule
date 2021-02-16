@@ -1,3 +1,6 @@
+#!name=mgtv
+#!desc=mgtv sign in
+
 [MITM]
 %APPEND% credits.bz.mgtv.com
 
