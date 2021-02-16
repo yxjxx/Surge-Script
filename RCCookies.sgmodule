@@ -19,5 +19,8 @@ http-request ^https?:\/\/iface(\d)?\.iqiyi\.com\/ script-path=https://raw.github
 ## 航旅纵横, 请先按下述方法进行配置，进入"航旅纵横(Pro)" - "出行有礼" - "每日签到"，若弹出"首次写入 umetrip id 成功"即可正常食用
 http-request ^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
 
+## mgtv
+http-request ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
+
 [MITM]
-hostname = %APPEND% music.163.com, www.flyertea.com, *.video.qq.com, ifac*.iqiyi.com, cloud.umetrip.com
+hostname = %APPEND% music.163.com, www.flyertea.com, *.video.qq.com, ifac*.iqiyi.com, cloud.umetrip.com, credits.bz.mgtv.com
