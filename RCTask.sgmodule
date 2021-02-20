@@ -1,5 +1,5 @@
 #!name=RC Tasks Module
-#!desc=(flyertea, iqiyi, neteasemusic)
+#!desc=(flyertea, iqiyi, neteasemusic, qqvideo, oclean)
 
 [Script]
 # By rico  GitHub：https://github.com/yxjxx/Surge-Script
@@ -21,7 +21,10 @@ cron "5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 
 # > 微信小程序 - 欧可林商城 (By @zZPiglet)
 # 进入微信小程序"欧可林商城"并点击"每日任务"
-cron "7 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城
+cron "6 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城
+
+# mgtv
+cron "7 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js,tag=芒果TV
 
 [MITM]
 hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com, *.video.qq.com, mall.oclean.com
