@@ -28,7 +28,7 @@ cron "2 12 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 
 # > 快手极速版 (By @Macsuny)
 #APP登陆账号后，点击’钱包‘
-cron "3 12 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,tag=快手极速版
+cron "13 12 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,tag=快手极速版
 
 [MITM]
-hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com, *.video.qq.com, mall.oclean.com, credits.bz.mgtv.com
+hostname = %APPEND% music.163.com, www.flyertea.com, ifac*.iqiyi.com, *.video.qq.com, mall.oclean.com, credits.bz.mgtv.com, nebula.kuaishou.com, activity.m.kuaishou.com
