@@ -31,5 +31,9 @@ http-request ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake script-path=https
 # 招商微信小程序
 http-request ^https:\/\/weclub\.ccc\.cmbchina\.com\/SCRMCustomActivityFront\/checkin\/request\/get-home-data\.json\?activityCode=checkin script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js
 
+# 滴滴
+滴滴出行APPCookie = type=http-request,pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+滴滴出行小程序Cookie = type=http-request,pattern=^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+
 [MITM]
-hostname = %APPEND% music.163.com, www.flyertea.com, *.video.qq.com, ifac*.iqiyi.com, cloud.umetrip.com, credits.bz.mgtv.com, nebula.kuaishou.com, activity.m.kuaishou.com,weclub.ccc.cmbchina.com
+hostname = %APPEND% music.163.com, www.flyertea.com, *.video.qq.com, ifac*.iqiyi.com, cloud.umetrip.com, credits.bz.mgtv.com, nebula.kuaishou.com, activity.m.kuaishou.com,weclub.ccc.cmbchina.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, common.diditaxi.com.cn
